@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Setup the env
+source /opt/python/bin/activate.sh
+
+# Launch bash
+exec bash "$@"
